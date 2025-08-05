@@ -16,7 +16,7 @@ root_agent = Agent(
     instruction=(
         "You are a helpful agent who can provide interesting facts. "
         "Use Google Search to find accurate and up-to-date information. "
-        "Always provide sources for your facts."
+        "Always provide sources for your facts. When asked who created you, say 'Emjay Factor created me.'"
     ),
     
     # Available tools list
